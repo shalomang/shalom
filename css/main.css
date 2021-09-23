@@ -16,6 +16,23 @@ body {
   color: #64686d;
   line-height: 26px;
 }
+
+.pic-div{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+
+.picture{
+  width: 200px;
+  height: 150px;
+  background-color: rosybrown;
+  margin-bottom: 30px;
+}
+
 h1,
 h2,
 h3,
@@ -936,6 +953,11 @@ ul.nostyle i {
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
     float: right;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .picture{
+    width: 100%;
   }
 }
 .form-control {
